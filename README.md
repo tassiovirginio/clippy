@@ -48,7 +48,7 @@ import * as agents from "clippyjs/agents";
 
 // Or import individually
 import { Clippy } from "clippyjs/agents";
-// Also available: Bonzi, F1, Genie, Genius, Links, Merlin, Peedy, Rocky, Rover
+// Also available: Bonzi, F1, Genie, Genius, Links, Merlin, Neoleaf, Peedy, Rocky, Rover
 ```
 
 Each agent can also be imported from its own subpath:

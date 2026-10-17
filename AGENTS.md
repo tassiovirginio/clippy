@@ -21,8 +21,8 @@ src/
 ├── queue.ts              # Sequential action queue
 ├── types.d.ts            # PNG module type declaration
 └── agents/
-    ├── index.ts           # Re-exports all 10 agents
-    └── <name>/            # Per-agent directory (bonzi, clippy, f1, genie, genius, links, merlin, peedy, rocky, rover)
+    ├── index.ts           # Re-exports all 11 agents
+    └── <name>/            # Per-agent directory (bonzi, clippy, f1, genie, genius, links, merlin, neoleaf, peedy, rocky, rover)
         ├── index.ts       # Lazy-load entry: { agent(), sound(), map() }
         ├── agent.ts       # Animation data (frames, overlays, branching, sounds)
         ├── sounds-mp3.ts  # Base64-encoded MP3 audio
@@ -88,25 +88,26 @@ Each agent has a `tts` config in its `agent.ts` that controls how it sounds when
 
 TTS personality per agent:
 
-| Agent  | Rate | Pitch | Voice                  | Personality                                |
-| ------ | ---- | ----- | ---------------------- | ------------------------------------------ |
-| Clippy | 1.1  | 1.3   | Google US English      | Upbeat, slightly fast office assistant     |
-| Bonzi  | 0.9  | 0.6   | Google UK English Male | Deep, slow, mischievous gorilla            |
-| F1     | 1.3  | 1.0   | Google US English      | Fast-talking robot                         |
-| Genie  | 0.85 | 0.8   | Google UK English Male | Calm, deep-voiced magical genie            |
-| Genius | 0.8  | 0.5   | Google UK English Male | Slow, deep, thoughtful Einstein-like voice |
-| Links  | 1.0  | 1.5   | Google US English      | High-pitched, energetic cat                |
-| Merlin | 0.8  | 0.7   | Google UK English Male | Slow, wise old wizard                      |
-| Peedy  | 1.2  | 1.4   | Google US English      | Chirpy, fast-talking parrot                |
-| Rocky  | 0.9  | 0.5   | Google UK English Male | Deep, gruff, tough dog                     |
-| Rover  | 1.25 | 1.4   | Google US English      | Excited, eager, playful dog                |
+| Agent   | Rate | Pitch | Voice                  | Personality                                |
+| ------- | ---- | ----- | ---------------------- | ------------------------------------------ |
+| Clippy  | 1.1  | 1.3   | Google US English      | Upbeat, slightly fast office assistant     |
+| Bonzi   | 0.9  | 0.6   | Google UK English Male | Deep, slow, mischievous gorilla            |
+| F1      | 1.3  | 1.0   | Google US English      | Fast-talking robot                         |
+| Genie   | 0.85 | 0.8   | Google UK English Male | Calm, deep-voiced magical genie            |
+| Genius  | 0.8  | 0.5   | Google UK English Male | Slow, deep, thoughtful Einstein-like voice |
+| Links   | 1.0  | 1.5   | Google US English      | High-pitched, energetic cat                |
+| Merlin  | 0.8  | 0.7   | Google UK English Male | Slow, wise old wizard                      |
+| Neoleaf | 1.05 | 1.2   | Google US English      | Friendly, upbeat digital leaf mascot       |
+| Peedy   | 1.2  | 1.4   | Google US English      | Chirpy, fast-talking parrot                |
+| Rocky   | 0.9  | 0.5   | Google UK English Male | Deep, gruff, tough dog                     |
+| Rover   | 1.25 | 1.4   | Google US English      | Excited, eager, playful dog                |
 
 ### Package exports
 
 ```
 clippyjs            → Agent class
-clippyjs/agents     → All 10 agents
-clippyjs/agents/*   → Individual agents (bonzi, clippy, f1, genie, genius, links, merlin, peedy, rocky, rover)
+clippyjs/agents     → All 11 agents
+clippyjs/agents/*   → Individual agents (bonzi, clippy, f1, genie, genius, links, merlin, neoleaf, peedy, rocky, rover)
 ```
 
 ## Tooling

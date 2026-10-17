@@ -5,6 +5,7 @@ export { default as Genie } from "./genie/index.ts";
 export { default as Genius } from "./genius/index.ts";
 export { default as Links } from "./links/index.ts";
 export { default as Merlin } from "./merlin/index.ts";
+export { default as Neoleaf } from "./neoleaf/index.ts";
 export { default as Peedy } from "./peedy/index.ts";
 export { default as Rocky } from "./rocky/index.ts";
 export { default as Rover } from "./rover/index.ts";

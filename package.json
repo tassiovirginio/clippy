@@ -20,6 +20,7 @@
     "./agents/genius": "./dist/agents/genius/index.mjs",
     "./agents/links": "./dist/agents/links/index.mjs",
     "./agents/merlin": "./dist/agents/merlin/index.mjs",
+    "./agents/neoleaf": "./dist/agents/neoleaf/index.mjs",
     "./agents/peedy": "./dist/agents/peedy/index.mjs",
     "./agents/rocky": "./dist/agents/rocky/index.mjs",
     "./agents/rover": "./dist/agents/rover/index.mjs"

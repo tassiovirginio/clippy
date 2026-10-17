@@ -10,6 +10,7 @@ const agents = [
   "genius",
   "links",
   "merlin",
+  "neoleaf",
   "peedy",
   "rocky",
   "rover",
